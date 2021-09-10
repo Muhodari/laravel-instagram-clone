@@ -25,6 +25,22 @@
 
 </div>
 
+<div class="row pt-5">
+
+    <div class="col-4 ">
+<img src="https://static.scientificamerican.com/sciam/cache/file/D45D6795-8679-4507-A58D1DD9CA8BA3A7_source.jpg?w=590&h=800&A7993D71-5543-405E-8C2319D73D2B7E2D" class="w-100">
+    </div>
+
+   <div class="col-4">
+<img src="https://static.scientificamerican.com/sciam/cache/file/D45D6795-8679-4507-A58D1DD9CA8BA3A7_source.jpg?w=590&h=800&A7993D71-5543-405E-8C2319D73D2B7E2D" class="w-100">
+    </div>
+
+    <div class="col-4">
+        <img src="https://static.scientificamerican.com/sciam/cache/file/D45D6795-8679-4507-A58D1DD9CA8BA3A7_source.jpg?w=590&h=800&A7993D71-5543-405E-8C2319D73D2B7E2D" class="w-100">
+            </div>
+
+</div>
+
 
 </div>
 @endsection
