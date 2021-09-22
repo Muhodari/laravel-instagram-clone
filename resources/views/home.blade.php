@@ -18,9 +18,9 @@
  <div class="pr-5"><strong>212</strong>following</div>
 </div>
 
-<div class="pt-4 font-weight-bold">freeCodeCamp</div>
-<div>programing is the key to the new development programing is the key to the new development programing is the key to the new development  </div>
-<div> <a href="#">www.freecodecamp.com</a></div>
+<div class="pt-4 font-weight-bold">{{$user->profile->title}}</div>
+<div>{{$user->profile->description}}</div>
+<div> <a href="https://{{$user->profile->url}}">{{$user->profile->url}}</a></div>
 </div>
 
 </div>
