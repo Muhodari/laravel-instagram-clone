@@ -24,12 +24,14 @@ public function store(){
 
     ]);
 
-   dd(request('image')->store('uploads','public'));
+   $imagePath = request('image')->store('uploads','public');
 
-    auth()->user()->posts()->create($data);
+    auth()->user()->posts()->create([
+        'caption'=> $data['caption'],
+        'image' => $imagePath,
+    ]);
 
-    // \App\Post::create($data);
+  return redirect('/profile/'.auth()->user()->id);
 
-    dd(request()->all());
 }
 }
