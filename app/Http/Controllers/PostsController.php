@@ -23,6 +23,9 @@ public function store(){
     'image'=>['required','image'],
 
     ]);
+
+   dd(request('image')->store('uploads','public'));
+
     auth()->user()->posts()->create($data);
 
     // \App\Post::create($data);
