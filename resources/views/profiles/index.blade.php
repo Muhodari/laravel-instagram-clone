@@ -24,9 +24,18 @@
  <div class="pr-5"><strong>212</strong>following</div>
 </div>
 
-<div class="pt-4 font-weight-bold">{{$user->profile->title}}</div>
-<div>{{$user->profile->description}}</div>
-<div> <a href="https://{{$user->profile->url}}">{{$user->profile->url}}</a></div>
+<div class="pt-4 font-weight-bold">
+// {{$user->profile->title}}
+welcome to my account</div>
+
+<div>
+// {{$user->profile->description}}
+my description found here
+</div>
+<div>
+// <a href="https://{{$user->profile->url}}">{{$user->profile->url}}</a>
+my url is here also
+</div>
 </div>
 
 </div>
