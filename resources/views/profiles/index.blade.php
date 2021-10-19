@@ -25,15 +25,15 @@
 </div>
 
 <div class="pt-4 font-weight-bold">
-// {{$user->profile->title}}
+ {{$user->profile->title}}
 welcome to my account</div>
 
 <div>
-// {{$user->profile->description}}
+ {{$user->profile->description}}
 my description found here
 </div>
 <div>
-// <a href="https://{{$user->profile->url}}">{{$user->profile->url}}</a>
+<a href="https://{{$user->profile->url}}">{{$user->profile->url}}</a>
 my url is here also
 </div>
 </div>
