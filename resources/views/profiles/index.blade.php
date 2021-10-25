@@ -6,7 +6,7 @@
 <div class="row">
 
     <div class="col-3 p-5">
-     <img src="https://dpi.gov.gy/wp-content/uploads/2019/06/pictures-for-profile-200x200-2.png" alt=""  height="120px" class="rounded-circle">
+     <img src="/storage/{{$user->profile->image}}" alt=""  height="120px" class="rounded-circle w-100">
     </div>
 
     <div class="col-9 pt-5">
