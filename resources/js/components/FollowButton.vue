@@ -21,9 +21,15 @@
         methods:{
         followUser(){
         this.status = ! this.status;
-        axios.post('/follow/'+this.userId).then(response =>{
+        axios.post('/follow/'+this.userId)
+        .then(response =>{
         console.log(response.data);
-        })
+        }).catch(errors =>{
+        if(errors.response.status==401){
+        window.location='/login';
+        }
+        });
+
         }
         },
         computed:{
