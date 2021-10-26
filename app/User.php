@@ -1,7 +1,6 @@
 <?php
 
 namespace App;
-
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
@@ -56,6 +55,10 @@ $user->profile()->create([
 
 public function posts(){
 return $this->hasMany(Post::class)->orderBy('created_at','DESC');
+}
+
+public function following(){
+return $this->belongsToMany(Profile::class);
 }
 
 public function profile(){
